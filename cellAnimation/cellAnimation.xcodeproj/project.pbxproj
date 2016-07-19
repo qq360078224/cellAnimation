@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		159400021D3896FD00F31925 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159400011D3896FD00F31925 /* ViewController2.swift */; };
+		159400021D3896FD00F31925 /* greenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159400011D3896FD00F31925 /* greenViewController.swift */; };
 		1594FFEE1D388E0700F31925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1594FFED1D388E0700F31925 /* AppDelegate.swift */; };
-		1594FFF01D388E0700F31925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1594FFEF1D388E0700F31925 /* ViewController.swift */; };
+		1594FFF01D388E0700F31925 /* redViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1594FFEF1D388E0700F31925 /* redViewController.swift */; };
 		1594FFF31D388E0700F31925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1594FFF11D388E0700F31925 /* Main.storyboard */; };
 		1594FFF51D388E0700F31925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1594FFF41D388E0700F31925 /* Assets.xcassets */; };
 		1594FFF81D388E0700F31925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1594FFF61D388E0700F31925 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		159400011D3896FD00F31925 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		159400011D3896FD00F31925 /* greenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = greenViewController.swift; sourceTree = "<group>"; };
 		1594FFEA1D388E0700F31925 /* cellAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cellAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1594FFED1D388E0700F31925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1594FFEF1D388E0700F31925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1594FFEF1D388E0700F31925 /* redViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redViewController.swift; sourceTree = "<group>"; };
 		1594FFF21D388E0700F31925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1594FFF41D388E0700F31925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1594FFF71D388E0700F31925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				1594FFED1D388E0700F31925 /* AppDelegate.swift */,
-				1594FFEF1D388E0700F31925 /* ViewController.swift */,
-				159400011D3896FD00F31925 /* ViewController2.swift */,
+				1594FFEF1D388E0700F31925 /* redViewController.swift */,
+				159400011D3896FD00F31925 /* greenViewController.swift */,
 				1594FFF11D388E0700F31925 /* Main.storyboard */,
 				1594FFF41D388E0700F31925 /* Assets.xcassets */,
 				1594FFF61D388E0700F31925 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1594FFF01D388E0700F31925 /* ViewController.swift in Sources */,
+				1594FFF01D388E0700F31925 /* redViewController.swift in Sources */,
 				1594FFEE1D388E0700F31925 /* AppDelegate.swift in Sources */,
-				159400021D3896FD00F31925 /* ViewController2.swift in Sources */,
+				159400021D3896FD00F31925 /* greenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +288,7 @@
 				1594FFFE1D388E0700F31925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
